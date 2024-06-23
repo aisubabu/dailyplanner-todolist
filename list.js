@@ -4,7 +4,7 @@ $(".txtb").on("keyup",function(e){
      {
          var item = $("<div class='task'></div>").text($(".txtb").val());
          var rem = $("<i class='fas fa-trash-alt'></i>");
-         var comp = $("<i class='fas fa-check'></i>");
+         var comp = $("<i class="fa-regular fa-square-check"></i>");
          $(".list").append(item);
          item.append(rem,comp)
          $(".txtb").val("")
